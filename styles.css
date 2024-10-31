@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: royalblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 7px;
+}
+
+#container {
+  text-align: center;
+  background: white;
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  margin: 0;
+}
+
+#input {
+  background: white;
+  height: 36px;
+  width: 284px;
+  padding: 6px;
+  margin: 0;
+  border-radius: 10px;
+  border-color: gray;
+  border-width: 3px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#add {
+  background-color: chartreuse;
+  height: 36px;
+  width: 62px;
+  border-radius: 10px;
+  border-color: gray;
+  color: white;
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+  margin: 0;
+  margin-left: 10px;
+  border-width: 3px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#add:hover {
+  background: green;
+}
+
+#clear {
+  background-color: white;
+  height: 36px;
+  width: 354px;
+  border-radius: 10px;
+  border-color: red;
+  border-width: 3px;
+  color: red;
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+  margin: 0;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#clear:hover {
+  background-color: brown;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 2px solid gray;
+}
+
+.checkbox {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.delete {
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 16px;
+  height: 16px;
+  color: red;
+  cursor: pointer;
+}
+
+.text {
+  font-size: 14px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
